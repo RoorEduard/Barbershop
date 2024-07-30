@@ -906,6 +906,7 @@ a:focus{
 
 .contactus{
 	background: #be9342;
+	
 }
 
 .contactus .container-fluid{
@@ -923,7 +924,7 @@ a:focus{
 	font-size: 36px;
 	color: #fff;
 	letter-spacing: 0.18em;
-	font-weight: 700;
+	font-weight: 100%s;
 	padding-bottom: 30px;
 	text-transform: uppercase;
 	margin-bottom: 50px;
@@ -1034,9 +1035,14 @@ footer{
 	color: #be9342;
 }
 
+
 /****************************************
 		Responsive Media Query
 ****************************************/
+
+@media only screen and (max-width: 1600px){
+	
+}
 
 @media only screen and (max-width: 991px) {
 	
@@ -1075,6 +1081,10 @@ footer{
 	
 	.navbar-brand img{
 		float: left;
+	}
+
+	.preloader{
+		display: none;
 	}
 	
 	.navbar{
@@ -1182,6 +1192,9 @@ footer{
 	.about-img-single img{
 		width: auto !important;
 	}
+	.testimonial{
+		
+	}
 	
 	.about-desc{
 		margin-top: 30px;
@@ -1189,9 +1202,9 @@ footer{
 	
 	.gallery-overlay{
 		top: 10px;
-		right: 10px;
+		
 		bottom: 10px;
-		left: 10px;
+		
 	}
 	
 	.gallery-info p{
